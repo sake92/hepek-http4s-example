@@ -11,6 +11,6 @@ lazy val root = (project in file("."))
       "org.http4s"          %% "http4s-dsl"          % Http4sVersion,
       "ch.qos.logback"       % "logback-classic"     % "1.4.14",
       "org.fusesource.jansi" % "jansi"               % "1.8",
-      "ba.sake"             %% "hepek-http4s"        % "0.19.0+5-58600164+20231207-1056-SNAPSHOT"
+      "ba.sake"             %% "hepek-http4s"        % "0.20.0"
     )
   )
