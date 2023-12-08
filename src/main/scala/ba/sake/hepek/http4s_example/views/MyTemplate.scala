@@ -13,8 +13,8 @@ trait MyTemplate extends Page:
     div(clsContainer)(
       Navbar.nav(
         brandUrl = "/",
-        brandName = Some("My Company Ltd."),
-        brandIconUrl = Some("https://img.icons8.com/color/48/000000/company.png"),
+        brandName = Some("Hepek - Http4s"),
+        brandIconUrl = Some("https://http4s.org/images/http4s-favicon.svg"),
         left = List(
           Navbar.link("/showForm", "Form"),
           Navbar.dropdown(
@@ -25,7 +25,7 @@ trait MyTemplate extends Page:
             )
           )
         ),
-        right = List(a(href := "#")("Contact us"))
+        right = List(Navbar.link("#", "Contact us"))
       ),
       pageContent
     )
